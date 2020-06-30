@@ -26,18 +26,6 @@ eureka:
   instance:
     instance-id: springcloudservice-provider-department-8001
     prefer-ip-address: true
-info:
-  company:
-    name: jiuyun education
-  build:
-    artifactId: @project.artifactId@
-    groupId: @project.groupId@
-  app:
-    name: ${spring.application.name}
-    encoding: @project.build.sourceEncoding@
-    java:
-      source: @java.version@
-      target: @java.version@
 ---
 server:
   port: 8004
@@ -63,15 +51,3 @@ eureka:
   instance:
     instance-id: springcloudservice-provider-department-8001
     prefer-ip-address: true
-info:
-  company:
-    name: jiuyun education
-  build:
-    artifactId: @project.artifactId@
-    groupId: @project.groupId@
-  app:
-    name: ${spring.application.name}
-    encoding: @project.build.sourceEncoding@
-    java:
-      source: @java.version@
-      target: @java.version@
